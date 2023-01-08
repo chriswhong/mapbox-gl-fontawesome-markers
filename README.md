@@ -6,6 +6,8 @@ This package extends `mapboxgl.Marker`, adding two new options: `icon` and `icon
 
 All built-in `mapboxgl.Marker` options are still available, so you can still set the `color`, `scale`, `rotation`, etc as usual.
 
+[Live Demo on Github Pages](https://chriswhong.github.io/mapbox-gl-fontawesome-markers/)
+
 <img width="589" alt="Mapbox_GL_Fontawesome_Markers_Demo_and_Pages" src="https://user-images.githubusercontent.com/1833820/211178457-3249e242-6eda-49b0-bad1-17ce038c654d.png">
 
 
