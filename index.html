@@ -7,6 +7,8 @@
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
     <style>
         body {
             margin: 0;
@@ -19,14 +21,33 @@
             bottom: 0;
             width: 100%;
         }
+
+        #content {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: white;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+
+        .small {
+            font-size: 14px;
+        }
     </style>
 </head>
 
 <body>
     <div id="map"></div>
+    <div id="content">
+        <div>Mapbox GL Fontawesome Markers Demo</div>
+        <div><a href="https://github.com/chriswhong/mapbox-gl-fontawesome-markers">Github Repo</a></div>
+        <span class="small">Reload to regenerate markers</span>
+    </div>
     <script src="https://kit.fontawesome.com/3a3d8feff0.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mapbox-gl-fontawesome-markers@0.0.1/dist/index.js" crossorigin="anonymous"></script>
-    <script src="./example/common/map-with-markers.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mapbox-gl-fontawesome-markers@0.0.1/dist/index.js"
+        crossorigin="anonymous"></script>
+    <script src="example/common/map-with-markers.js"></script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@ Adds Fontawesome icons to Mapbox GL JS default Map Markers.
 
 This package extends `mapboxgl.Marker`, adding two new options: `icon` and `iconColor`.  `icon` is any fontawesome icon class (e.g. `fa-solid fa-pizza-slice`) and `iconColor` is any html or hex color code.  The fontawesome icon specified in `icon` will be added to the marker in place of the default white circle.
 
-All built-in `mapboxgl.Marker` options are still available, so you can still set the `color`, `scale`, `rotation`, etc as usual.
+All built-in [`mapboxgl.Marker`](https://docs.mapbox.com/mapbox-gl-js/api/markers/#marker) options are still available, so you can still set the `color`, `scale`, `rotation`, etc as usual.
 
 [Live Demo on Github Pages](https://chriswhong.github.io/mapbox-gl-fontawesome-markers/)
 
