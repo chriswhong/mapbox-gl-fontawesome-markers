@@ -1,8 +1,8 @@
 {
   "name": "mapbox-gl-fontawesome-markers",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Adds Fontawesome icons to Mapbox GL JS default Map Markers.",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
