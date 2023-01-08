@@ -27,7 +27,7 @@ import FontawesomeMarkers from "mapbox-gl-fontawesome-markers";
 **When using a CDN**
 
 ```html
-<script src='comingsoon'></script>
+<script src='https://cdn.jsdelivr.net/npm/mapbox-gl-fontawesome-markers@0.0.1/dist/index.js'></script>
 ```
 
 ### Example usage
