@@ -3,6 +3,9 @@ export default {
     output: {
       name: 'FontawesomeMarker',
       file: 'dist/index.js',
-      format: 'umd'
+      format: 'umd',
+      globals: {
+        'mapbox-gl': 'mapboxgl'
+      }
     }
   };

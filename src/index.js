@@ -1,3 +1,4 @@
+import mapboxgl from 'mapbox-gl';
 
 const DEFAULT_TOP_OFFSET = 7
 const DEFAULT_FONT_SIZE = 12

@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.FontawesomeMarker = factory());
-})(this, (function () { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('mapbox-gl')) :
+    typeof define === 'function' && define.amd ? define(['mapbox-gl'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.FontawesomeMarker = factory(global.mapboxgl));
+})(this, (function (mapboxgl) { 'use strict';
 
     const DEFAULT_TOP_OFFSET = 7;
     const DEFAULT_FONT_SIZE = 12;
