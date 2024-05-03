@@ -25,7 +25,7 @@ npm install mapbox-gl-fontawesome-markers
 
 ```js
 import mapboxgl from 'mapbox-gl';
-import FontawesomeMarkers from "mapbox-gl-fontawesome-markers";
+import FontawesomeMarker from "mapbox-gl-fontawesome-markers";
 ```
 
 **When using a CDN**
